@@ -1,0 +1,276 @@
+*{
+    margin: 0px;
+    padding:0px;
+    font-family: tahoma;
+}
+a{
+    text-decoration: none;
+
+}
+
+ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.mid {
+  width: 70%;
+    margin: auto;  
+   
+}
+
+/* header-css ================================*/
+section.header-section {
+    padding: 10px 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+    background: #fff;
+}
+.header-left a {
+    display: inline-block;
+    color: #000;
+    font-weight: 600;
+    font-size: 23px;
+}
+.header-left a i {
+    color: #afafaf;
+    font-size: 20px;
+    margin-left: 27px;
+    position: relative;
+}
+
+.hl-right a img {
+    width: 23px;
+    margin-left: 34px;
+    margin-right: 11px;
+}
+.header-right a:nth-child(2) img {
+    width: 21px;
+    height: 21px;
+    margin-top: -3px;
+}
+
+
+.header-mid{
+    position: relative;
+}
+.header-mid input {
+    width: 100%;
+    padding: 1px 10px;
+    border: 1px solid #d2d2d2;
+    border-radius: 4px;
+}
+.header-mid a {
+    background: #f8f8f8;
+    width: 61px;
+    padding: 13px 0;
+    display: block;
+    border: 1px solid #d2d2d2;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.header-mid a i {
+    position: absolute;
+    top: 6px;
+    right: 17px;
+    color: #777;
+   
+} 
+
+.header-right a{}
+.header-right a img {
+    margin-right: 20px;
+    width: 35px;
+    height: 26px;
+}
+.header-right a i {
+    color: #606060;
+    font-size: 18px;
+}
+.header-right span {
+    background: red;
+    width: 20px;
+    display: inline-block;
+    text-align: center;
+    height: 19px;
+    border-radius: 50%;
+    position: relative;
+    top: -4px;
+    margin-right: 14px;
+    color: #fff;
+}
+/* body-section css */
+.body-left {
+    position: fixed;
+    left: 6px;
+    top: 61px;
+}
+.bl-top {
+    padding: 0 0 7px 0;
+    border-bottom: 1px solid #ddd;
+}
+.bl-home {
+    background: #e5e5e5;
+    padding: 10px 0px;
+    margin-top: 30px;
+    width: 246px;
+}
+.bl-top a {
+    margin-left: 21px;
+    display: block;
+    margin-top: 4px;
+    color: #606060;
+}
+.bl-home a {
+    margin-left: 23px;
+    display: block;
+    color: #000;
+}
+.bl-home a i {
+    color: red;
+    font-size: 19px;
+    margin-right: 15px;
+}
+.bl-top a img {
+    margin-right: 13px;
+    width: 24px;
+}
+
+
+.bl-mid {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+.bl-mid a img {
+    margin-right: 18px;
+    margin-left: 0px;
+    width: 24px;
+}
+
+
+
+
+.bl-mid a {
+    margin-left: 24px;
+    display: block;
+    margin-top: 7px;
+    color: #606060;
+}
+.bl-mid a i {
+    color: #606060;
+    font-size: 21px;
+    margin-right: 15px;
+    width: 20px;
+}
+
+.bl-mid a img {
+    margin-right: 13px;
+    margin-left: -1px;
+}
+
+.bl-bottom {
+    padding: 10px 0;
+}
+.bl-bottom h2 {
+    font-size: 21px;
+    font-weight: 500;
+    margin-left: 25px;
+}
+.bl-bottom a {
+    display: block;
+    color: #606060;
+    font-size: 13px;
+    font-weight: 500;
+    margin-left: 19px;
+    margin-bottom: 10px;
+}
+.bl-bottom a img {
+    width: 25px;
+    margin-right: 12px;
+}
+
+/* body-right section css */
+
+.br-top {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    background: #fff;
+    margin-top: 49px;
+}
+.br-top .menu ul {
+    margin-bottom: 0;
+}
+.br-top .menu ul li{ 
+    display: inline-block;
+}
+.br-top .menu ul li a {
+    display: block;
+    color: 606060;
+    color: #606060;
+    padding: 3px 20px;
+    background: #f2f2f2;
+    border-radius: 40px;
+    border: 1px solid #ddd;
+}
+
+.br-top .menu ul li:nth-child(1) a{
+    display: block;
+    color:#fff;
+    background-color: #606060;
+
+}
+/* br-content css */
+.br-content {
+    background-color: #f9f9f9;
+    padding-top: 30px;
+}
+
+.content-item{}
+.content-item img {
+    width: 100%;
+}
+.item-details {
+    padding: 10px;
+}
+.item-details img {
+    width: 40px;
+    height: 41px;
+    margin-right: 8px;
+}
+.details a:nth-child(1) {
+    display: block;
+    color: #000;
+    font-size: 14px;
+}
+.details a:nth-child(2){
+    display: block;
+    color: #606060;
+    font-size: 14px;
+}
+.details a:nth-child(3){
+    display: block;
+    color: #606060;
+    font-size: 14px;
+}
+.br-content .col-xl-3 {
+    margin-bottom: 21px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
